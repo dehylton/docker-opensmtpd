@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-RUN apk add --no-cache opensmtpd \
+RUN apk add --no-cache opensmtpd ca-certificates \
     && mkdir -p /var/spool/smtpd \
     && ln -s /etc/smtpd /etc/opensmtpd \
     && chmod 0711 /var/spool/smtpd \
