@@ -1,4 +1,4 @@
-# openbsd-alpine
+# opensmtpd-alpine
 
 ## Description
 OpenBSD's fantastic opensmtpd, based on the alpine:3.7 container.
