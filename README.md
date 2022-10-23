@@ -1,7 +1,7 @@
 # opensmtpd-alpine
 
 ## Description
-OpenBSD's fantastic opensmtpd, based on the alpine:3.7 container.
+OpenBSD's fantastic OpenSMTPD 6.8.0p2, based on the alpine:3.16.2 container.
 
 ## Defaults
 1. executes ```smtpd``` with ```-dv``` flags by default, can be overridden as shown below
